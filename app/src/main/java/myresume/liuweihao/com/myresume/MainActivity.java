@@ -1,8 +1,8 @@
 package myresume.liuweihao.com.myresume;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import myresume.liuweihao.com.myresume.fragment.FGcontactme;
 import myresume.liuweihao.com.myresume.fragment.FGproject;
@@ -10,7 +10,7 @@ import myresume.liuweihao.com.myresume.fragment.FGresume;
 import myresume.liuweihao.com.myresume.fragment.FGvideo;
 import myresume.liuweihao.com.myresume.view.BottomBar;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
         bottomBar.setContainer(R.id.fl_container)
                 .setTitleBeforeAndAfterColor("#999999", "#ff5d5e")
                 .addItem(FGresume.class,
-                        "首页",
+                        "简历",
                         R.drawable.item1_before,
                         R.drawable.item1_after)
                 .addItem(FGvideo.class,
