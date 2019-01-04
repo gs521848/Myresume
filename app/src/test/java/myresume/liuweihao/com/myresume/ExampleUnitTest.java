@@ -1,4 +1,4 @@
-package myresume.liuweihao.com.myresume;
+package com.liuweihao.myresume;
 
 import org.junit.Test;
 

@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import myresume.liuweihao.com.myresume.R;
+import com.liuweihao.myresume.R;
 
 /**
  * Created by Administrator on 2019/1/1.

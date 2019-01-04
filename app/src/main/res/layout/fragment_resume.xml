@@ -5,12 +5,12 @@
     tools:context="com.liuweihao.myresume.fragment.FGresume">
 
     <!-- TODO: Update blank fragment layout -->
-    <com.chenyu.library.bannerViewPager.BannerViewPager
+    <com.liuweihao.myresume.view.viewpager.BannerViewPager
         android:id="@+id/banner"
         android:layout_width="match_parent"
         android:layout_height="200dp">
 
-    </com.chenyu.library.bannerViewPager.BannerViewPager>
+    </com.liuweihao.myresume.view.viewpager.BannerViewPager>
 
 
 </FrameLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="myresume.liuweihao.com.myresume.test" >
+    package="com.liuweihao.myresume.test" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -10,8 +10,8 @@
         android:name="android.support.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for myresume.liuweihao.com.myresume"
-        android:targetPackage="myresume.liuweihao.com.myresume" />
+        android:label="Tests for com.liuweihao.myresume"
+        android:targetPackage="com.liuweihao.myresume" />
 
     <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />

@@ -1,4 +1,4 @@
-package myresume.liuweihao.com.myresume;
+package com.liuweihao.myresume;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("myresume.liuweihao.com.myresume", appContext.getPackageName());
+        assertEquals("com.liuweihao.myresume", appContext.getPackageName());
     }
 }

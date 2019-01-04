@@ -1,4 +1,4 @@
-package com.chenyu.library.bannerViewPager;
+package com.liuweihao.myresume.view.viewpager;
 
 import android.content.Context;
 import android.os.Handler;
