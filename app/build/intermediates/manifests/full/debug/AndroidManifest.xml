@@ -18,7 +18,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="myresume.liuweihao.com.myresume.MainActivity"
+            android:name="com.liuweihao.myresume.MainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >

@@ -2,12 +2,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="myresume.liuweihao.com.myresume.fragment.FGresume">
+    tools:context="com.liuweihao.myresume.fragment.FGresume">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.chenyu.library.bannerViewPager.BannerViewPager
+        android:id="@+id/banner"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="FGresume" />
+        android:layout_height="200dp">
+
+    </com.chenyu.library.bannerViewPager.BannerViewPager>
+
 
 </FrameLayout>

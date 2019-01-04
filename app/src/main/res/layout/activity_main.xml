@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="myresume.liuweihao.com.myresume.MainActivity">
+    tools:context="com.liuweihao.myresume.MainActivity">
     <FrameLayout
         android:id="@+id/fl_container"
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
 
     </FrameLayout>
 
-    <myresume.liuweihao.com.myresume.view.BottomBar
+    <com.liuweihao.myresume.view.BottomBar
         android:background="#FFFFFF"
         android:id="@+id/bottom_bar"
         android:layout_width="match_parent"
