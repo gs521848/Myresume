@@ -32,6 +32,7 @@ public class FGresume extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View mview=inflater.inflate(R.layout.fragment_resume,container,false);
+        //MaterialViewPager
         initBanners(mview,getActivity());
         return mview;
 

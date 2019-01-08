@@ -32,11 +32,13 @@ public class ViewPagerAdapter extends PagerAdapter implements DataSetSubject {
     }
 
     public View getView(int location){
+
         return this.mDataViews.get(location);
     }
 
     @Override
     public int getCount() {
+
         return mDataViews.size();
     }
 

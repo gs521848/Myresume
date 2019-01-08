@@ -86,7 +86,6 @@ public class BannerViewPager extends FrameLayout implements ViewPager.OnPageChan
     public void setAdapter(ViewPagerAdapter adapter){
         mViewPager.setAdapter(adapter);
         mViewPager.addOnPageChangeListener(this);
-
         mAdapter = adapter;
         mAdapter.registerSubscriber(new DataSetSubscriber() {
             @Override
