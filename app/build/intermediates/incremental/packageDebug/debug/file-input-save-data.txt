@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Jan 04 17:37:16 CST 2019
+#Tue Jan 08 18:21:02 CST 2019
 2.base=F\:\\JAVAme\\Myresume\\Myresume\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\36
 5.set=DEX
 0.path=classes.dex
